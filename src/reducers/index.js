@@ -1,10 +1,10 @@
 import {combineReducers} from 'redux'
 import counter from './counter'
-import widget from './widget'
+import widgets from './widgets'
 
 const rootReducer = combineReducers({
   counter,
-  widget
+  widgets
 })
 
 export default rootReducer
